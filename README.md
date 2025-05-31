@@ -1,7 +1,7 @@
 # Hi! I'm Mohammed 👋
 
 ```tsx
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 const AboutMe = () => {
   const [state, setState] = useState({
@@ -12,17 +12,10 @@ const AboutMe = () => {
     languages: ["Arabic", "English"],
     techStack: [
       "HTML", "CSS", "JavaScript", "TypeScript",
-      "React", "Next.js", "Svelte", "Vite", "Tailwind",
-      "Express", "PostgreSQL", "MongoDB", "MySQL", "Go", "Python"
+      "React", "Next.js", "Vite", "Tailwind",
+      "Express", "NestJS", "MySQL", "Python"
     ]
   });
-
-  useEffect(() => {
-    console.log(`Hi! I'm ${state.name}, a ${state.age}-year-old developer from ${state.location}.`);
-    console.log(`Hobbies: ${state.hobbies.join(", ")}`);
-    console.log(`Languages: ${state.languages.join(", ")}`);
-    console.log(`Tech stack: ${state.techStack.join(", ")}`);
-  }, []);
 
   return (
     <div style={{ fontFamily: "Consolas, monospace", background: "#282c34", color: "#61dafb", padding: "2rem", borderRadius: "10px", maxWidth: "600px", margin: "auto" }}>
@@ -39,11 +32,11 @@ const AboutMe = () => {
       <p>
         Tech stack: <em>{state.techStack.join(", ")}</em>.
       </p>
-      <footer style={{ marginTop: "1rem", fontStyle: "italic" }}>
-        Let's build something amazing together! 🚀
-      </footer>
     </div>
   );
 };
 
 export default AboutMe;
+```
+ذذذذ
+```
