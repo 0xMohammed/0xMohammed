@@ -38,5 +38,3 @@ const AboutMe = () => {
 
 export default AboutMe;
 ```
-ذذذذ
-```
