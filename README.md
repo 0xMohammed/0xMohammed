@@ -6,7 +6,7 @@ import React, { useState } from "react";
 const AboutMe = () => {
   const [state, setState] = useState({
     name: "Mohammed Alharbi",
-    age: 21,
+    age: 22,
     location: "Saudi Arabia",
     hobbies: ["Programming", "Swimming"],
     languages: ["Arabic", "English"],
